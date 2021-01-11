@@ -20,6 +20,10 @@
     {
       "type": "vcs",
       "url": "https://github.com/yalsicor/heimdal.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/Jedliu/containers-installer"
     }
   ],
   "keywords": [
@@ -31,7 +35,7 @@
   ],
   "license": "MIT",
   "require": {
-    "apiato/containers-installer" : "1.0.*",
+    "apiato/containers-installer" : "dev-composer-v2",
     "guzzlehttp/guzzle": "^6.3",
     "prettus/l5-repository": "^2.6",
     "fruitcake/laravel-cors": "^1.0",
